@@ -1,0 +1,6 @@
+#map { 
+  width: 100%;
+  background-image: url('./floorplan.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
