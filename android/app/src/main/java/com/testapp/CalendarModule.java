@@ -54,7 +54,8 @@ public class CalendarModule extends ReactContextBaseJavaModule {
 //        TelephonyManager telM = (TelephonyManager)getNetworkInfo()
         String connectType = this.getNetworkInfo(this.context);
         if (connectType == "WiFi") {
-            succesYa.invoke("WiFi");
+            TestClass testName = new TestClass();
+            succesYa.invoke("WiFi" + testName.createName());
         } else if (connectType == "Mobile") {
             String type = this.getNetworkClass(this.context);
             succesYa.invoke(type);
