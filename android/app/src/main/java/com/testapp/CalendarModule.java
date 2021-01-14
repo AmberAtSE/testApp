@@ -55,7 +55,7 @@ public class CalendarModule extends ReactContextBaseJavaModule {
         String connectType = this.getNetworkInfo(this.context);
         if (connectType == "WiFi") {
             TestClass testName = new TestClass();
-            succesYa.invoke("WiFi" + testName.createName());
+            succesYa.invoke("WiFi from android studio" + testName.createName());
         } else if (connectType == "Mobile") {
             String type = this.getNetworkClass(this.context);
             succesYa.invoke(type);
