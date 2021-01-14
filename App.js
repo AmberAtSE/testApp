@@ -34,7 +34,7 @@ class App extends React.Component {
     // console.log('deviceWith', deviceWith);
     return (
       <View style={{flex: 1}}>
-        <Text>{this.state.networkType}. Hello from React Native</Text>
+        <Text>{this.state.networkType}. Update from RN!</Text>
         <WebView
           style={{width: this.state.deviceWidth}}
           originWhitelist={['*']}
